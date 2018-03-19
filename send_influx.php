@@ -48,7 +48,6 @@ function insert_influx($XMLS,$HOST,$influx_url) {
 
 }
 
-echo "http://$influx_host:$influx_port/write?db=$influx_db";
 echo $time." - Enviando host: ".$argv[1]." Service: ".$argv[2]." ...\n";
 
 $XMLS="/usr/local/pnp4nagios/var/perfdata/".$argv[1]."/".$argv[2].".xml";
